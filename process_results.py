@@ -2,7 +2,7 @@ import os
 import json
 import csv
 
-INPUT_DIR = "./results"
+INPUT_DIR = "./naive_rag_output_and_results"
 OUTPUT_FILE = "combined_results.csv"
 
 CSV_COLUMNS = [

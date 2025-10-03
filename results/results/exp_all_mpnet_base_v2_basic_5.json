@@ -1,0 +1,1 @@
+{"config": {"embedding_model": "all_mpnet_base_v2", "prompt": "basic", "top_k": 5}, "metrics": {"f1_score": 48.43995124960509, "exact_match": 38.671023965141615, "faithfulness": 0.55, "context_recall": 0.6666666666666666, "context_precision": 0.33333333332666665, "answer_relevancy": 0.7170646503222565}}

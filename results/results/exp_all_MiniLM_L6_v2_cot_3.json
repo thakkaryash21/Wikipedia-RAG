@@ -1,0 +1,1 @@
+{"config": {"embedding_model": "all_MiniLM_L6_v2", "prompt": "cot", "top_k": 3}, "metrics": {"f1_score": 37.569828585218815, "exact_match": 27.124183006535947, "faithfulness": 0.875, "context_recall": 0.5652173913043478, "context_precision": 0.8333333332630952, "answer_relevancy": 0.6280836002677956}}

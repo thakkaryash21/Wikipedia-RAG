@@ -1,0 +1,1 @@
+{"config": {"embedding_model": "all_MiniLM_L6_v2", "prompt": "persona", "top_k": 10}, "metrics": {"f1_score": 44.90995242451994, "exact_match": 33.66013071895425, "faithfulness": 0.775, "context_recall": 0.7272727272727273, "context_precision": NaN, "answer_relevancy": 0.6623430804694992}}

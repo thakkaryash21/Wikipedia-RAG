@@ -2,8 +2,8 @@ import os
 import json
 import csv
 
-INPUT_DIR = "./naive_rag_output_and_results"
-OUTPUT_FILE = "combined_results.csv"
+INPUT_DIR = "../naive_rag_output_and_results"
+OUTPUT_FILE = "../naive_rag_output_and_results/combined_results.csv"
 
 CSV_COLUMNS = [
     "Embedding Model",

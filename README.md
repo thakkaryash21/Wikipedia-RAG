@@ -2,11 +2,11 @@
 
 > A comparative study of baseline and advanced RAG architectures using the Mini-Wikipedia dataset, with systematic evaluation of retrieval techniques and generation quality.
 
-## Overview
+## 📋 Overview
 **Objective:** The goal was to develop practical expertise in Retrieval-Augmented Generation (RAG) systems by implementing a **Naive RAG** baseline and extending it with two **production-ready enhancements**. Both pipelines were evaluated using industry-standard metrics to better understand real-world RAG deployment challenges.
 
 
-## System Architectures
+## 🏗️ System Architectures
 
 ### Naive RAG Architecture
 The Naive RAG pipeline follows the standard retriever–generator–evaluator design. Experiments were conducted across multiple embedding models, prompt strategies, and retrieval depths (*k*).
@@ -21,7 +21,7 @@ The Advanced RAG pipeline builds on the best naive configuration with two enhanc
 ![Advanced RAG Architecture](architecture_diagrams/advanced_rag.png)
 
 
-## Setup
+## ⚙️ Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -35,7 +35,7 @@ Since query rewriting and RAGAS uses an OpenAI model, make sure your environment
 export OPENAI_API_KEY="your_api_key_here"
 ```
 
-## Running the Experiments
+## 🚀 Running the Experiments
 
 ### Naive RAG
 Open and run all cells in `naive-rag.ipynb` to execute experiments varying:
@@ -83,13 +83,13 @@ With query rewriting + reranking (fetch-10 / select-5):
 For detailed analysis, see **Final Report.pdf**.
 
 
-## Key Insights
+## 💡 Key Insights
 
 - **Simple often wins:** Basic prompts with good retrieval (k=10) outperformed complex strategies
 - **Query rewriting needs tuning:** Aggressive rewriting can distort user intent
 - **Faithfulness remains high:** Both pipelines maintained strong factual grounding
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Embeddings:** Sentence Transformers (`all-MiniLM-L6-v2`, `all-mpnet-base-v2`)
 - **Reranking:** Cross-Encoder (`ms-marco-MiniLM-L6-v2`)
